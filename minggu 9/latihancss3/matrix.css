@@ -1,0 +1,35 @@
+body{
+	;background: #35a9db;
+	font-family: roboto;
+	text-align: center;
+
+}
+
+h1, h2{
+	color: #fff;
+}
+
+.ketengah{
+	margin: 10px auto;
+	width: 1150px;
+}
+
+.kotak1{
+	background: #fcfcfc;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	width: 150px;
+	height: 150px;
+}
+
+.kotak2{
+	background: #fcfcfc;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	width: 200px;
+	height: 150px;
+	matrix(scaleX(),skewY(),skewY(),scaleY(),translateX(),translateX())
+	transform: matrix(1, -2, -1, 1, 8, 4);
+}
