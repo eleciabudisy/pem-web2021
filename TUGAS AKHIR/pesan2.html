@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>InfoKost.com</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="topnav">
+
+		<header>
+		<a href="index.html" class="link"><h1>InfoKost.com</h1></a>
+		</header>
+		<a href="profil.html" class="nav"><i class="fas fa-user"></i></a>
+		<a href="index.html" class="nav"><i class="fas fa-home"></i></a>
+		<a href="search.html" class="nav"><i class="fas fa-search"></i></a>
+		
+		
+	</div>
+
+	<br>
+
+	
+	
+<div class="kotak_login">
+		<p class="tulisan_login">INFORMASI KOST</p>
+ 
+		<form>
+			 
+			<label>Tanggal Masuk Kost</label><br>
+			<input type="date" name="tanggal" class="form_login">
+
+
+			<label>Sewa Kost</label><br>
+			<input type="number" name="sk" >
+			<select>
+				<option>Tahun</option>
+				<option>Minggu</option>
+				<option>Bulan</option>
+				<option>Hari</option>
+			</select>
+
+ 			<center>
+ 				<br>
+			<a class="tombol_login" href="pesan3.html">Selanjutnya</a>
+		</center>
+ 
+			<br/>
+			<br/>
+			<center>
+				<a class="link" href="pesan.html">kembali</a>
+			</center>
+		</form>
+		
+	</div>
+	
+
+
+
+	<!-- footer -->
+	<footer>
+		<h5 align = "center" id="tanggal"></h5>
+		<script type="text/javascript">
+		var tanggalWaktu = new Date();
+		document.getElementById("tanggal").innerHTML = "Waktu akses " + tanggalWaktu;
+	</script>
+		<small>Copyright &copy; InfoKost.com</small>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>InfoKost.com</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="topnav">
+
+		<header>
+		<a href="index.html" class="link"><h1>InfoKost.com</h1></a>
+		</header>
+		<a href="profil.html" class="nav"><i class="fas fa-user"></i></a>
+		<a href="index.html" class="nav"><i class="fas fa-home"></i></a>
+		<a href="search.html" class="nav"><i class="fas fa-search"></i></a>
+		
+		
+	</div>
+
+	<br>
+
+	
+	
+<div class="kotak_login">
+		<p class="tulisan_login">Formulir  Pesanan</p>
+ 
+		<form>
+			<label><b>Nama</b></label>
+			<input type="text" name="nama" class="form_login">
+ 
+			<label><b>Alamat Lengkap</b></label>
+			<textarea cols="25" rows="4" class="form_login"></textarea>
+
+			<label><b>Jenis Kelamin</b></label><br>
+ 			<select name="jk" size="1" class="form_login">
+ 				<option>Laki-Laki</option>
+ 				<option>Perempuan</option>
+ 			</select><br>
+
+
+ 			<label><b>No. Handphone</b></label>
+			<input type="text" name="nohp" class="form_login">
+
+			<label><b>Pekerjaan</b></label><br>
+			<input type="radio" name="kerja" value="Perempuan">PNS &ensp;
+			<input type="radio" name="kerja" value="Perempuan">Swasta &ensp;
+			<input type="radio" name="kerja" value="Perempuan">Pelajar &ensp;
+			<input type="radio" name="kerja" value="lainnya">Lainnya <br>
+<br>
+			<label><b>Instansi</b></label>
+			<input type="text" name="ins" class="form_login">
+
+			<label><b>Deskripsi Diri</b></label>
+			<textarea cols="25" rows="4" class="form_login"></textarea>
+
+ 			<center>
+ 				<br>
+			<a class="tombol_login" href="pesan2.html">Selanjutnya</a>
+		</center>
+ 
+			<br/>
+			<br/>
+			<center>
+				<a class="link" href="detail1.html">kembali</a>
+			</center>
+		</form>
+		
+	</div>
+	
+
+
+
+	<!-- footer -->
+	<footer>
+		<h5 align = "center" id="tanggal"></h5>
+		<script type="text/javascript">
+		var tanggalWaktu = new Date();
+		document.getElementById("tanggal").innerHTML = "Waktu akses " + tanggalWaktu;
+	</script>
+		<small>Copyright &copy; InfoKost.com</small>
+	</footer>
+</body>
+</html>
